@@ -1,0 +1,310 @@
+body{
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position:center;
+    padding: 0px;
+    background-attachment: fixed; */
+    background: url(image/test.jpg) fixed;
+    background-size: cover;
+
+}
+/* style navbar background */
+.navbar{
+  background-color: rgba(7, 7, 7, 0.5);
+  }
+  /* Style Nav bar transition */
+  .navbar-collapse ul a{
+  float: left;
+  padding-top: 15px;
+  margin-right: 30px;
+  color: rgba(7, 7, 7, 5);
+  font-weight: bold;
+  }
+  
+  /* Style Navbar image/logo */
+#nav-bar-logo{
+  height: 100%;
+}
+  /* style footer */
+  
+  /* Style Navigation bar that will on be displayed when the screen siz is reduced */ .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+  }
+#maindiv{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgba(204, 204, 204);
+    opacity: 0;
+}
+#subdiv{
+    /* border: 2px solid blue; */
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#bookdiv{
+    /* border: 2px solid pink; */
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#book{
+    padding-left: 43%;
+    margin-top: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: rgb(0, 0, 0);
+}
+#btndiv{
+    /* border: 2px solid yellowgreen; */
+    height: 67%;
+    width: 100%;
+}
+#btn1{
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#btn2{
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 21%;
+}
+#btn3{
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 21%;
+}
+#btn4{
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 30%;
+} 
+#subdiv a{
+    text-decoration: none;
+    color:black;
+}
+#subdiv button:hover{
+    background-color: blue;
+}
+#subdiv a:hover{
+    color: white;
+}
+#subdiv1{
+    /* border: 2px solid green; */
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+#one{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 100%;
+}
+#two{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+}
+#Terminal{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#label{
+    margin-left: 10%;
+}
+#Terminal1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#label1{
+    margin-left: 10%;
+}
+#passenger{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 20px;
+}
+#label2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#date{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+#btn{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgb(0, 255, 127);
+}
+#Proceed{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgb(0, 255, 127);
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(128, 128, 128);
+  }
+  #contact{
+    width: 25%;
+    height: 300px;
+  }
+  #Contact-contact{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  #Contact-one{
+    color: rgb(255, 255, 255);
+  }
+  #Contact-two{
+    color: rgb(255, 255, 255);
+    margin-left: 7%;
+  }
+  #Contact-three{
+    color: rgb(255, 255, 255);
+  }
+  #Contact-four{
+    color: rgb(255, 255, 255);
+  }
+  #Contact-five{
+    color: rgb(255, 255, 255);
+  }
+  #Contact-five a :hover{
+    color: rgb(0, 128, 0);
+  }
+  #mail{
+    color: rgb(255, 255, 255);
+  }
+  #company{
+    width: 25%;
+    height: 300px;
+  }
+  #Company-one{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  #Company-a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  #Company-two a:hover{
+    color:rgb(0, 128, 0);
+  }
+  #experience{
+    width: 25%;
+    height: 300px;
+  }
+  #Experience-one{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  #Experience-a{
+    color: rgb(255, 255, 255);
+  }
+  #Experience-two a:hover{
+    color:rgb(0, 128, 0);
+  }
+  #follow{
+    width: 25%;
+    height: 300px;
+  }
+  #Follow-one{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  #Follow-img{
+    height: 50px;
+    width: 15%;
+  }
+  #copyright{
+    width: 100%;
+    height: 30px;
+    border-top: 2px solid rgb(0, 0, 255);
+    background-color: rgb(128, 128, 128);
+  }
+  #copyright a{
+    color: rgb(0, 0, 0);
+  }
+  #copyright a:hover{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+  }
+  #copyright p{
+    margin-left: 30%;
+  }
+  /*media queries for footer*/
+  /*tablets*/
+  @media screen and (max-width: 768px){
+    #footer{
+      height: 450px;
+      flex-wrap: wrap;
+    }
+    #contact{
+      width: 50%;
+      height: 300px;
+    }
+    #company{
+      width: 50%;
+      height: 300px;
+    }
+    #experience{
+      width: 50%;
+      height: 150px;
+    }
+    #follow{
+      width: 50%;
+      height: 150px;
+    }
+    #copyright{
+      height: 50px;
+    }
+  }
+  /*Mobile*/
+  @media screen and (max-width: 480px){
+    #footer{
+      height: 750px;
+      flex-wrap: wrap;
+    }
+    #contact{
+      width: 100%;
+      height: 300px;
+    }
+    #company{
+      width: 100%;
+      height: 200px;
+    }
+    #experience{
+      width: 100%;
+      height: 100px;
+    }
+    #follow{
+      width: 100%;
+      height: 150px;
+    }
+    #copyright{
+      height: 60px;
+    }
+  }

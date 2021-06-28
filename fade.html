@@ -1,0 +1,226 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Trial</title>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+            }
+            .up{
+                border: 1px solid green;
+                background-color: cornflowerblue;
+                height: 700px;
+                width: auto;
+            }
+            .box{
+                border: 1px solid blue;
+                display: flex;
+                height: 600px;
+                width: auto;
+                flex-wrap: wrap;
+            }
+            #one{
+                background-color: aqua;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example;
+                animation-duration: 5s;
+                animation-direction: alternate;
+                position: relative;
+            }
+            #two{
+                background-color: black;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example1;
+                animation-duration: 5s;
+                animation-direction:alternate;
+                position: relative;
+            }
+            #three{
+                background-color: blueviolet;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example2;
+                animation-duration: 5s;
+                animation-direction:alternate;
+                position: relative;
+            }
+            #four{
+                background-color: brown;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example3;
+                animation-duration: 5s;
+                animation-direction:alternate;
+                position: relative;
+            }
+            #five{
+                background-color: cadetblue;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example4;
+                animation-duration: 5s;
+                animation-direction:alternate;
+                position: relative;
+            }
+            #six{
+                background-color: chartreuse;
+                height: 300px;
+                width: 33.33333333%;
+                border-radius: 10px;
+                box-shadow: 10px;
+                animation-name: example5;
+                animation-duration: 5s;
+                animation-direction:alternate;
+                position: relative;
+            }
+            @keyframes example{
+                50% {background-color: aqua; left: -450px; top: 0px;}
+                100%{background-color: aqua; left: 0px; top: 0px;}
+            }
+            @keyframes example1{
+                50% {background-color: black; left: -900px; top: 0px;}
+                100% {background-color: black; left: 0px; top: 0px;}
+            }
+            @keyframes example2{
+                50% {background-color: blueviolet; right: -450px; top: 0px;}
+                100% {background-color: blueviolet; right: 0px; top: 0px;}
+            }
+            @keyframes example3{
+                50% {background-color: brown; left: -450px; top: 0px;}
+                100% {background-color: brown; left: 0px; top: 0px;}
+            }
+            @keyframes example4{
+                50% {background-color: cadetblue; right: -900px; top: 0px;}
+                100% {background-color: cadetblue; right: 0px; top: 0px;}
+            }
+            @keyframes example5{
+                50% {background-color: chartreuse; right: -450px; top: 0px;}
+                100% {background-color: chartreuse; right: 0px; top: 0px;}
+            }
+            /*media queries*/
+            /*tablets*/
+            @media screen and (max-width: 768px){
+                #one{
+                    width: 50%;
+                }
+                #two{
+                    width: 50%;
+                }
+                #three{
+                    width: 50%;
+                }
+                #four{
+                    width: 50%;
+                }
+                #five{
+                    width: 50%;
+                }
+                #six{
+                    width: 50%;
+                }
+            }
+            /*mobiles*/
+            @media screen and (max-width: 480px){
+                #one{
+                    width: 100%;
+                }
+                #two{
+                    width: 100%;
+                }
+                #three{
+                    width: 100%;
+                }
+                #four{
+                    width: 100%;
+                }
+                #five{
+                    width: 100%;
+                }
+                #six{
+                    width: 100%;
+                }
+            }
+            #row{
+                background-color: aqua;
+                height: 20px;
+                display: block;
+            }
+            #rows{
+                background-color: blue;
+                height: 20px;
+                display: block;
+            }
+            #head{
+                width: 50px;
+            }
+            #data{
+                width: 50px;
+            }
+            #ten{
+                border: 2px solid red;
+                width: 150px;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("btn1").click(function(){
+                    $("#ten").fadeOut(3000);
+                })
+            })
+        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- </head>
+    <body> -->
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+        <!-- <div class="up">
+
+        </div>
+        <div class="box">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+        </div>
+        <div id="ten">
+            <table>
+                <tr id="row">
+                    <th id="head">One</th>
+                    <th id="head">Two</th>
+                    <th id="head">Three</th>
+                </tr>
+                <tr id="rows">
+                    <td id="data">two</td>
+                    <td id="data">three</td>
+                    <td id="data">four</td>
+                </tr>
+                <tr id="row">
+                    <td id="data">three</td>
+                    <td id="data">four</td>
+                    <td id="data">five</td>
+                </tr>
+                <tr id="rows">
+                    <td id="data">four</td>
+                    <td id="data">five</td>
+                    <td id="data">six</td>
+                </tr>
+            </table>
+        </div>
+        <button id="btn1">Next</button>
+    </body>
+</html> -->

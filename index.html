@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ife Motors.</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="image/Logo.png" id="nav-bar-logo"></a>
+              <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+
+         </div>
+         <div class="navbar-collapse collapse" id="navbarCollapse">
+           <ul class="nav navbar-nav">
+               <li><a href="index.html" class="active glyphicon glyphicon-home"> Home</a></li>
+               <li><a href="terminal.html" class="glyphicon glyphicon-road"> Terminal</a></li>
+               <li><a href="booking.html" class="glyphicon glyphicon-list-alt"> Booking</span></a></li>
+               <li><a href="#" class="glyphicon glyphicon-info-sign"> About</a></li>
+              </ul>
+           <form class="navbar-form navbar-left" role="search">
+             <div class="input-group">
+               <span class="input-group-btn">
+                   <button type="submit" class="btn btn-info">Go</button>
+               </span>
+                <label class="sr-only">Search</label>
+                <input type="text" id="search" class="form-control" placeholder="Search">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>  
+             </div>
+           </form>
+           <form class="navbar-form navbar-right">
+              <input type="button" class="btn btn-success" value="Login">
+           </form>
+         </div>
+      </div>
+    </nav>
+        <!-- Carousels -->
+            <div class="container-fluid">
+             <div class="carousel slide" id="myCarousel" data-ride="carousel">
+               <!-- Carousel indicators -->
+                 <ol class="carousel-indicators">
+                     <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                     <li data-slide-to="1" data-target="#myCarousel"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                 </ol>
+
+                 <!-- Carousels Images (7 images) -->
+                 <div class="carousel-inner">
+                   <div class="item active">
+                     <!-- Carousel image 1-->
+                     <img src="image/Bus i.jpg">
+                     <div class="carousel-caption">
+                       <!-- Image titles -->
+                        <p>Slide Number 1</p>
+                     </div>
+                   </div>
+
+                   <div class="item">
+                     <!-- Carousel image 2-->
+                      <img src="image/Bus 2.jpg">
+                      <div class="carousel-caption">
+                         <!-- Image titles -->
+                         <p>Slide Number 2</p>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <!-- Carousel image 3-->
+                       <img src="image/Bus 3.jpg">
+                       <div class="carousel-caption">
+                          <!-- Image titles -->
+                          <p>Slide Number 3</p>
+                       </div>
+                     </div>
+
+                     <div class="item">
+                      <!-- Carousel image 4-->
+                       <img src="image/Bus 5.jpg">
+                       <div class="carousel-caption">
+                          <!-- Image titles -->
+                          <p>Slide Number 4</p>
+                       </div>
+                     </div>
+                     <div class="item">
+                      <!-- Carousel image 5-->
+                       <img src="image/Bus 6.jpg">
+                       <div class="carousel-caption">
+                          <!-- Image titles -->
+                          <p>Slide Number 5</p>
+                       </div>
+                     </div>
+                <div class="item">
+                    <!-- Carousel image 6-->
+                      <img src="image/Bus 7.jpg">
+                      <div class="carousel-caption">
+                        <!-- Image titles -->
+                          <p>Slide Number 6</p>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <!-- Carousel image 7-->
+                          <img src="image/Bus 8.jpg">
+                          <div class="carousel-caption">
+                            <!-- Image titles -->
+                              <p>Slide Number 7</p>
+                            </div>
+                          </div>
+                 </div>
+
+                 <!-- Carousel left control icon (Previous) -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+
+                  <!-- Carousel right control icon (Next) -->
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+             </div>
+            </div>
+            <div id="container">
+              <div id="parent">
+                <img src="image/Bus 9.jpg" id="bus9">
+              </div>
+              <div id="parent1">
+                <div id="one">
+                  <h3 id="onec"><b>IFE MOTOR'S</b></h3>
+                  <p>This is a WebApp Created for Booking of Travel Tickets.</p>
+                </div>
+                <div id="two">
+                  <img src="image/Play Store Logo.jpg" id="twoc">
+                  <img src="image/App Store Logo.jpg" id="twocc">
+                </div>
+                <div id="three">
+                  <a href="#"><button id="threec"><h4><b>Book Now!</b></h4></button></a>
+                </div>
+              </div>
+            </div>
+            
+            <div id="box">
+              <div id="div1">
+                <img src="image/Head office.jpg" height="100%" width="100%" id="HeadOfficeimg">
+                <div class="div1-2">
+                  <h3 style="color: white;"><b><i>Head Office, FCT Abuja</i></b></h3>
+                  <p style="color: white;">251, Angwan Sarki</p>
+                  <p style="color: white;">Orozo, Abuja.</p>
+                  <p style="color: white;"><span class="glyphicon glyphicon-contact">09032825450 <br> 09022333202</span></p>
+                </div>
+              </div>
+              <div id="div2">
+                <img src="image/Send Goods.jpg" height="100%" width="100%" id="SendGoodsimg">
+                <div id="div2-1">
+                  <p id="p1">Send your Packages or Parcels Here.</p>
+                  <a href="#"><button id="btn1" class="btn btn-success"><h4 style="color: black;">Send Your Goods!</h4></button></a>
+                </div>
+              </div>
+              <div id="div3">
+                <img src="image/gold-card.png" height="100%" width="100%" id="GoldCardimg">
+                <!-- <div class="div3-1"> -->
+                  <h3 style="color: white; font-size: 25px; margin-left: 40%;"><b>Loyalty Cards</b></h3>
+                  <p style="color: white; font-size:medium;">Complete Ten Trips in a year and get your Eleventh Trip free.</p>
+                  <p style="color: white; font-size:medium;">You would also automatically become a Gold Customer!</p>
+                <!-- </div> -->
+              </div>
+          </div>
+          <div id="footer">
+            <div id="contact">
+              <h2 id="Contact-contact"><b>Contact</b></h2>
+              <h3 id="Contact-one"><b><span class="glyphicon glyphicon-phone-alt">IFE MOTOR'S PLC</span></b></h3>
+                <p id="Contact-two">251 ANGWAN SARKI, OROZO, ABUJA.</p>
+              <p id="Contact-three"><span  class="glyphicon glyphicon-phone">+2349022333202</span></p>
+              <p id="Contact-four"><span  class="glyphicon glyphicon-phone">+2349032825450</span></p>
+              <p id="Contact-five"><a href="mailto:Ife04abraham@gmail.com" id="mail"><span class="glyphicon glyphicon-envelope">Ife04abraham@gmail.com</span></a></p>
+            </div>
+            <div id="company">
+              <h2 id="Company-one"><b>Company</b></h2>
+              <p id="Company-two"><a href="#" id="Company-a"><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span> About Us</a></p>
+              <p id="Company-two"><a href="terminal.html" id="Company-a"><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span> Bus Terminals</a></p>
+              <p id="Company-two"><a href="#" id="Company-a"><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span><span class="glyphicon glyphicon-chevron-right"></span> FAQs</a></p>
+            </div>
+            <div id="experience">
+              <h2 id="Experience-one"><b>Experience</b></h2>
+              <p id="Experience-two"><a href="#" id="Company-a"><span class="glyphicon glyphicon-comment"></span> Feedback</span></a></p>
+            </div>
+            <div id="follow">
+              <h2 id="Follow-one"><b>Follow Us</b></h2>
+              <a href="https://­facebook.com/­ife.omoniyi.54" target="_blank"><img src="image/Facebook.png" id="Follow-img" title="Facebook" alt="Facebook"></a>
+              <a href="https://twitter.com/Ife74984482" target="_blank"><img src="image/Twitter.png" id="Follow-img" title="Twitter" alt="Twitter"></a>
+              <a href="https://www.youtube.com/channel/UCN1ToXcWsRNPH046oezt54g" target="_blank"><img src="image/YouTube.png" id="Follow-img" title="Youtube" alt="Youtube"></a>
+            </div>
+          </div>
+          <div id="copyright">
+            <p>Copyright&copy; Develop with Omoniyi Ife Abraham. <a href="index.html" >Ife Motor's plc.</a></p>
+          </div>
+          
+    <!-- footer -->
+    <!-- <footer class="footer">
+         <p>&copy; Develop with Ife Omoniyi.</p>
+    </footer> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="PROJECT/Java.js"></script>
+  </body>
+</html>

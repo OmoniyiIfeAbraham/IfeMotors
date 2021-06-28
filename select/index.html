@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <form>
+            <label for="one">one</label>
+            <select id="one" name="one">
+                <option value="man">man</option>
+                <option value="woman">woman</option>
+            </select>
+            <br>
+            <label for="two">Two</label>
+            <select id="two" name="two">
+                <option value="boy">boy</option>
+                <option value="girl">girl</option>
+            </select>
+        </form>
+        <button onclick="date()">Run</button>
+        <p id="test"></p>
+        <script>
+            function date() {
+                var first = document.getElementById("one").value;
+                var second = document.getElementById("two");
+                var text;
+                if ((first === "man") && (second === "boy")) {
+                    text = "January";
+                }else {
+                    text = "Febuary";
+                }
+                document.getElementById("test").innerHTML = text;
+            }
+        </script>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <form>
+            <label for="male">male</label>
+            <select id="male">
+                <option value="man">man</option>
+                <option value="boy">boy</option>
+                <option value="husband">husband</option>
+            </select>
+            <br>
+            <label for="female">female</label>
+            <select id="female">
+                <option value="woman">woman</option>
+                <option value="girl">girl</option>
+                <option value="wife">wife</option>
+            </select>
+            <button onclick="setDate()"> click</button>
+            <p></p>
+        </form>
+        <script>
+            const select = document.querySelector('select');
+            const para = document.querySelector('p');
+
+            select.addEventListener('change', setDate);
+
+            function setDate() {
+                const choice = select.value;
+
+                if (choice === 'man'){
+                    para.textContent = 'january';
+                }else {
+                    para.textContent = 'mazda';
+                }
+            }
+        </script>
+    </body>
+</html>
