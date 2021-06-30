@@ -5,8 +5,8 @@ body{
     background-position:center;
     padding: 0px;
     background-attachment: fixed; */
-    /* background: url(C:\Users\Samsung\Documents\EDP201\Project\image\test.jpg) fixed;
-    background-size: cover; */
+    background: url(image/test.jpg) fixed;
+    background-size: cover; 
     background-color: rgb(228, 220, 220);
 }
 /* style navbar background */
@@ -57,7 +57,7 @@ body{
   background-color: rgb(245, 227, 227);
 }
 #headh1{
-  margin-top: 0%;
+  margin-top: 4%;
   margin-left: 10%;
 }
 /*media queries for head and head1*/
@@ -66,7 +66,7 @@ body{
     height: 30%;
   }
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 @media screen and (max-width: 767px){
@@ -74,27 +74,27 @@ body{
     height: 20%;
   }
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 @media screen and (max-width: 625px){
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 @media screen and (max-width: 437px){
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 @media screen and (max-width: 295px){
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 @media screen and (max-width: 221px){
   #headh1{
-    margin-top: 0%;
+    margin-top: 4%;
   }
 }
 #passengerdetails{
@@ -109,9 +109,9 @@ body{
   /* display: none; */
   /* opacity: 0.8; */
 }
-.pd{
+/* .pd{
   display: none;
-}
+} */
 #one{
   /* border: 2px solid white; */
   border-top-left-radius: 10px;
@@ -223,9 +223,9 @@ body{
       /* display: none; */
       /* opacity: 0; */
 }
-.cd{
+/* .cd{
   display: none;
-}
+} */
 #six{
   /* border: 2px solid blue; */
   width: 100%;

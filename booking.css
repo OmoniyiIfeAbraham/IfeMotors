@@ -44,7 +44,7 @@ body{
     margin-top: 10%;
     border-radius: 10px;
     background-color: rgba(204, 204, 204, 0.5);
-    opacity: 0;
+    /* opacity: 0; */
 }
 #subdiv{
     /* border: 2px solid blue; */
