@@ -32,6 +32,9 @@ body{
   background-color: #cccccc;
   border-radius: 1px;
   }
+#carousel{
+  margin-top: 5%;
+}
 /* Style Carousel images */
 .item img{
    height: 500px;
@@ -91,7 +94,7 @@ body{
   /* flex-wrap: wrap; */
 }
 #div1{
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   background-color: none;
   height: 400px;
   width: 33.33333333%;
@@ -104,7 +107,7 @@ body{
   margin-right: 5px;
 }
 #div2{
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   background-color: none;
   height: 400px;
   width: 33.33333333%;
@@ -118,7 +121,7 @@ body{
   margin-right: 5px;
 }
 #div3{
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   background-color: none;
   height: 400px;
   width: 33.33333333%;

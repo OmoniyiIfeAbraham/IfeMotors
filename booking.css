@@ -5,7 +5,7 @@ body{
     background-position:center;
     padding: 0px;
     background-attachment: fixed; */
-    background: url(image/test.jpg) fixed;
+    background: url(image/istockphoto-1249451763-640x640.jpg) fixed;
     background-size: cover;
 
 }
@@ -43,7 +43,7 @@ body{
     margin-right: 25%;
     margin-top: 10%;
     border-radius: 10px;
-    background-color: rgba(204, 204, 204);
+    background-color: rgba(204, 204, 204, 0.5);
     opacity: 0;
 }
 #subdiv{
@@ -78,20 +78,20 @@ body{
     margin-left: 1%;
     margin-top: 1%;
 }
-#btn2{
+/* #btn2{
     border-radius: 100px;
     padding: 15px;
     margin-left: 21%;
+} */
+#btn2{
+    border-radius: 100px;
+    padding: 15px;
+    margin-left: 40%;
 }
 #btn3{
     border-radius: 100px;
     padding: 15px;
-    margin-left: 21%;
-}
-#btn4{
-    border-radius: 100px;
-    padding: 15px;
-    margin-left: 30%;
+    margin-left: 38%;
 } 
 #subdiv a{
     text-decoration: none;
