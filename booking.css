@@ -93,6 +93,83 @@ body{
     padding: 15px;
     margin-left: 38%;
 } 
+/*media queries for btn div*/
+@media screen and (max-width: 1200px){
+  #btn1{
+    margin-left: 5%;
+  }
+  #btn2{
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 850px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 653px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 15%;
+  }
+  #btn3{
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 503px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 10%;
+  }
+  #btn3{
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 485px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 20%;
+  }
+  #btn3{
+    margin-left: 30%;
+  }
+  #maindiv{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 283px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 10%;
+  }
+  #btn3{
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 209px){
+  #btn1{
+    margin-left: 0%;
+  }
+  #btn2{
+    margin-left: 5%;
+  }
+  #btn3{
+    margin-left: 10%;
+  }
+}
 #subdiv a{
     text-decoration: none;
     color:black;
