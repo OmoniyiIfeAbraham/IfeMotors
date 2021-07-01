@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="make payment.css">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Select a Seat</title>
+        <title>make payment</title>
     
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -131,11 +131,29 @@
         </div>
         <div id="twelve">
           <div id="thirteen">
-            <a href="#"><img src="image/BulkSMSPro-Mastercard-VISA-Verve-Logo-e1552298507841-1.png" id="img1"></a>
+            <a class="open-button" onclick="openForm()"><img src="image/BulkSMSPro-Mastercard-VISA-Verve-Logo-e1552298507841-1.png" id="img1"></a>
           </div>
           <div id="fourteen">
-            <a href="#"><img src="image/integrate-paystack-payment-gateway.png" id="img2"></a>
+            <a class="open-button" onclick="openForm()"><img src="image/integrate-paystack-payment-gateway.png" id="img2"></a>
           </div>
+        </div>
+        <!-- Trial level -->
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container" method="POST">
+            <h1>Save when you sign up</h1>
+            <input type="email" id="email" name="email" placeholder="Email ID">
+            <br>
+            <input type="password" id="password" name="password" placeholder="Password" width="100%">
+            <br>
+            <a href="#"><button type="submit" class="btn">Login</button></a>
+            <p>Don't have an account?<a href="#">Click here to register.</a></p>
+            <p><a href="#">Forgot your password?</a></p>
+            <h4>Why sign up to IfeMotors?</h4>
+            <h4><span class="glyphicon glyphicon-ok"></span> Manage your Booking</h4>
+            <h4><span class="glyphicon glyphicon-ok"></span> Get exclusive deals and special offers</h4>
+            <h4><a href="first payment.html">Continue without Login 1</a></h4>
+            <h4><a href="second payment.html">Continue without Login 2</a></h4>
+          </form>
         </div>
         <div id="fifteen">
           <h4>Terms and Conditions</h4>
