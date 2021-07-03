@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="second payment.css">
+        <link rel="stylesheet" href="login.css">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>second payment</title>
+        <title>Login</title>
     
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,23 +56,27 @@
         </div>
       </nav>
       <div id="main">
-        <div id="sub2">
-            <img src="image/Logo.png" id="img">
-            <hr>
-            <form action="mailto:Ife04abraham@gmail.com" method="POST">
-                <label for="number" id="numlabel">Card Number</label><br>
-                <input type="number" id="number" name="number" placeholder="0000 0000 0000 0000" autofocus required>
+        <div id="one">
+            <h3 id="oneh1">Login to your Account</h3>
+        </div>
+        <div id="two">
+            <form method="POST">
+                <input type="email" id="email" name="email" placeholder="Email ID" required autofocus>
                 <br>
-                <label for="number" id="numlabel">Valid Till</label><br>
-                <input type="number" id="number" name="number" placeholder="MM/YY" required>
-                <label for="number" id="numlabel">CVV</label><br>
-                <input type="number" id="number" name="number" placeholder="123" required>
-                <p>Your cvv is the 3 or 4 digit number on the back of your card(The side without the chip)</p>
                 <br>
-                <input type="checkbox" id="card" name="card">
-                <label for="card">Remeber this card next time</label>
-                <button type="submit" value="submit" id="btn">PAY</button>
+                <input type="password" id="password" name="password" required minlength="6" maxlength="12" placeholder="Password">
+                <br>
+                <br>
+                <input type="submit" value="submit" id="submit">
+                <br>
+                <p id="p">Dont have an Account? <a href="register.html" id="a">Click here to Register</a></p>
+                <p id="pp">Forgot your Password</p>
             </form>
+        </div>
+        <div id="three">
+            <p>Why Sign up on Ifemotors</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Manage your Booking</p>
+            <p><span class="glyphicon glyphicon-ok"></span> Get exclusive Deals and Special offers</p>
         </div>
       </div>
       <div id="footer">
@@ -104,7 +108,7 @@
       <div id="copyright">
         <p>Copyright&copy; Develop with Omoniyi Ife Abraham. <a href="index.html" >Ife Motor's plc.</a></p>
       </div>
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
