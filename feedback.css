@@ -34,77 +34,75 @@ body{
 }
 #main{
     /* border: 2px solid red; */
-    width: 50%;
-    height: 500px;
     margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 10px;
-    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #cccccc;
 }
-#sub1{
-    /* border: 2px solid blue; */
-    width: 25%;
-    height: 100%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: rgb(233, 225, 225);
+#name{
+    height: 30px;
+    width: 40%;
 }
-#sub1h4{
-    margin-top: 30%;
-    margin-left: 5%;
-}
-#sub1p{
-    margin-left: 5%;
-    text-decoration: none;
-}
-#sub1p :hover{
-    color: rgb(37, 228, 37);
-    text-decoration: none;
-}
-#sub2{
-    /* border: 2px solid purple; */
-    width: 75%;
-    height: 100%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: rgb(245, 245, 245);
-}
-#img{
-    height: 10%;
-    width: 10%;
-    margin-top: 8%;
-    margin-left: 5%;
-}
-#sub2h4{
-    margin-left: 20%;
-}
-#sub2h1{
-    margin-left: 45%;
+#email{
+    height: 30px;
+    width: 40%;
+    margin-top: 10px;
 }
 #number{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 30px;
+    width: 35%;
+    margin-top: 10px;
 }
-/*media queries*/
-@media screen and (max-width: 750px){
-    #main{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+#subject{
+    height: 30px;
+    width: 40%;
+    margin-top: 10px;
+}
+#bio{
+    height: 30px;
+    width: 38%;
+    margin-top: 10px;
+}
+#Number{
+    height: 30px;
+    width:33%;
+    margin-top: 10px;
+}
+#submit{
+    width: 10%;
+    height: 30px;
+    background-color: green;
+}
+/* Media queries */
+@media screen and (max-width: 564px){
+    #submit{
+        width: 30%;
     }
 }
-@media screen and (max-width: 467px){
+@media screen and (max-width: 400px){
     #main{
+        height: 600px;
+    }
+    #name{
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
-}
-@media screen and (max-width: 374px){
-    #img{
-        width: 20%;
+    #email{
+        width: 100%;
+    }
+    #number{
+        width: 100%;
+    }
+    #subject{
+        width: 100%;
+    }
+    #bio{
+        width: 100%;
+    }
+    #Number{
+        width: 100%;
+    }
+    #submit{
+        width: 50%;
     }
 }
 #footer{

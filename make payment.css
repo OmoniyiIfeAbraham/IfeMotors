@@ -5,8 +5,8 @@ body{
     background-position:center;
     padding: 0px;
     background-attachment: fixed; */
-    background: url(image/test.jpg) fixed;
-    background-size: cover; 
+    /* background: url(image/test.jpg) fixed; */
+    /* background-size: cover;  */
     background-color: rgb(228, 220, 220);
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -120,6 +120,32 @@ body{
   border-top-right-radius: 10px;
   height: 15%;
   width: 100%;
+  display: flex;
+}
+#btn1{
+  border-radius: 100px;
+  padding: 5px;
+  /* margin-left: 1%; */
+  /* margin-top: 1%; */
+}
+/* #btn2{
+  border-radius: 100px;
+  padding: 15px;
+  margin-left: 21%;
+} */
+#btn2{
+  border-radius: 100px;
+  padding: 5px;
+  /* margin-left: 40%; */
+}
+#btn3{
+  border-radius: 100px;
+  padding: 5px;
+  /* margin-left: 38%; */
+}
+#one button:hover{
+  background-color: blue;
+  color: white;
 }
 #one1{
   font-size: 20px;

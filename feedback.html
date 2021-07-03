@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="feedback.css">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Sign Up</title>
+        <title>Feedback</title>
     
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
         <![endif]-->
     </head>
     <body>
-                    <!-- Nav bar -->
+                                    <!-- Nav bar -->
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
            <div class="navbar-header">
@@ -55,29 +55,32 @@
            </div>
         </div>
       </nav>
-      <form action="mailto:Ife04abraham@gmail.com" method="POST">
-          <h3 id="p">Create a new Account</h3>
-          <input type="text" id="name" name="name" placeholder="Full Name" required autofocus>
-          <br>
-          <br>
-          <select aria-placeholder="Gender" required id="select">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="Other">Other</option>
-          </select>
-          <input type="number" id="number" name="number" placeholder="Mobile" required maxlength="11" minlength="11">
-          <input type="email" id="email" name="email" placeholder="Email" required>
-          <br>
-          <br>
-          <input type="password" id="password" name="password" placeholder="Password" required minlength="6" maxlength="12">
-          <input type="password" id="Password" name="password" placeholder="Confirm Password" required minlength="6" maxlength="12">
-          <br>
-          <br>
-          <p id="pp">By Signing Up I Agree to the <a href="#">Terms & Conditions</a></p>
-          <br>
-          <br>
-          <input type="Submit" value="Submit" id="Submit">
-      </form>
+      <div id="main">
+        <h3>THANK YOU FOR VISITING OUR SITE!</h3>
+        <p>All field labelled * are required.</p>
+        <form method="POST" action="mailto:Ife04abraham@gmail.com">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="number">Contact Number*</label>
+            <input type="number" id="number" name="number" required>
+            <br>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+            <br>
+            <label for="bio">Description*</label>
+            <textarea id="bio" name="bio" rows="5" cols="55" required></textarea>
+            <br>
+            <label for="Number">Verification*      15+8 = ?</label>
+            <input type="number" id="Number" name="number" required>
+            <br>
+            <br>
+            <input type="submit" id="submit" name="submit">
+        </form>
+      </div>
       <div id="footer">
         <div id="contact">
           <h2 id="Contact-contact"><b>Contact</b></h2>
