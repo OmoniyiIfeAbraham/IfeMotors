@@ -15,72 +15,71 @@
 
 
             levelButton(backBtn, "../scene.html")
-            var levelStorage= parseInt(localStorage.getItem("waterLevel"))
+            var levelStorage = parseInt(localStorage.getItem("waterLevel"))
 
 
 
-            if(levelStorage>=22){
+            if (levelStorage >= 12) {
                 levelButton(level2, "game12.html");
-               
-             }else{
-                 notReady(level2)
-             }
 
-             if(levelStorage>=23){
+            } else {
+                notReady(level2)
+            }
+
+            if (levelStorage >= 13) {
                 levelButton(level3, "game13.html");
-               
-             }else{
-                 notReady(level3)
-             }
-             
-             if(levelStorage>=24){
+
+            } else {
+                notReady(level3)
+            }
+
+            if (levelStorage >= 14) {
                 levelButton(level4, "game14.html");
-               
-             }else{
-                 notReady(level4)
-             }
-             
-             if(levelStorage>=25){
+
+            } else {
+                notReady(level4)
+            }
+
+            if (levelStorage >= 15) {
                 levelButton(level5, "game15.html");
-               
-             }else{
-                 notReady(level5)
-             }
-             
-             if(levelStorage>=26){
+
+            } else {
+                notReady(level5)
+            }
+
+            if (levelStorage >= 16) {
                 levelButton(level6, "game16.html");
-               
-             }else{
-                 notReady(level6)
-             }
-             
-             if(levelStorage>=27){
+
+            } else {
+                notReady(level6)
+            }
+
+            if (levelStorage >= 17) {
                 levelButton(level7, "game17.html");
-               
-             }else{
-                 notReady(level7)
-             }
-             if(levelStorage>=28){
+
+            } else {
+                notReady(level7)
+            }
+            if (levelStorage >= 18) {
                 levelButton(level8, "game18.html");
-               
-             }else{
-                 notReady(level8)
-             }
-             
-             if(levelStorage>=29){
+
+            } else {
+                notReady(level8)
+            }
+
+            if (levelStorage >= 19) {
                 levelButton(level9, "game19.html");
-               
-             }else{
-                 notReady(level9)
-             }if(levelStorage>=30){
+
+            } else {
+                notReady(level9)
+            }
+            if (levelStorage >= 20) {
                 levelButton(level10, "game20.html");
-               
-             }else{
-                 notReady(level10)
-             }
+
+            } else {
+                notReady(level10)
+            }
             levelButton(level1, "game11.html");
-            
-           
 
 
 
@@ -92,10 +91,12 @@
 
 
 
-                   
-            function notReady(buttons){
-                buttons.style.backgroundColor="grey";
-                buttons.style.opacity= "50%"
+
+
+
+            function notReady(buttons) {
+                buttons.style.backgroundColor = "grey";
+                buttons.style.opacity = "50%"
             }
 
 
