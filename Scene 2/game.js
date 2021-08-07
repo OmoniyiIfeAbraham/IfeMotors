@@ -11,7 +11,7 @@
                 level8 = document.querySelector(".levelEight"),
                 level9 = document.querySelector(".levelNine"),
                 level10 = document.querySelector(".levelTen"),
-                backBtn = document.querySelector(".back")
+                backBtn = document.querySelector(".back");
 
 
             levelButton(backBtn, "../scene.html")
